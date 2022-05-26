@@ -1,0 +1,23 @@
+footer {
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.15rem;
+  width: 100%;
+  height: 65.5px;
+  bottom: 0;
+  background: -webkit-linear-gradient(
+    71deg,
+    rgb(228, 186, 114),
+    rgb(233, 108, 48)
+  );
+  background: linear-gradient(71deg, rgb(228, 186, 114), rgb(233, 108, 48));
+}
+
+@media screen and (max-width: 450px) {
+  footer {
+    font-size: 0.8rem;
+  }
+}

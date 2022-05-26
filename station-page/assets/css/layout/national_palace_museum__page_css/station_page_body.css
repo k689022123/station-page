@@ -1,0 +1,10 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #efe9e9;
+  font-family: 'Kosugi Maru', sans-serif;
+  font-weight: 700;
+}

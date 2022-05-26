@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新北投駅</title>
+    <link rel="stylesheet" href="assets/css/station_page_style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
+      rel="stylesheet"
+    />
+    <script src="jquery.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar_logo">
+        <li>
+          <a href="http://127.0.0.1:5500/index.html"
+            ><img src="assets/images/home-icon-2.png" alt="home-logo"
+          /></a>
+        </li>
+      </ul>
+
+      <ul class="page_label">
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverStation()"
+              onmouseout="mouseOutStation()"
+            ></li>
+          </a>
+          <p class="label_station">新北投駅</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverLibrary()"
+              onmouseout="mouseOutLibrary()"
+            ></li>
+          </a>
+          <p class="label_Library">北投図書館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverSpaMuseum()"
+              onmouseout="mouseOutSpaMuseum()"
+            ></li>
+          </a>
+          <p class="label_SpaMuseum">北投温泉博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPlumBossom()"
+              onmouseout="mouseOutPlumBossom()"
+            ></li>
+          </a>
+          <p class="label_PlumBossom">梅庭</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverNationalPalaceMuseum()"
+              onmouseout="mouseOutNationalPalaceMuseum()"
+            ></li>
+          </a>
+          <p class="label_NationalPalaceMuseum">国立故宮博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverKnowledgeGod()"
+              onmouseout="mouseOutKnowledgeGod()"
+            ></li>
+          </a>
+          <p class="label_KnowledgeGod">文昌宮</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverPocketMuseum()"
+              onmouseout="mouseOutPocketMuseum()"
+            ></li>
+          </a>
+          <p class="label_PocketMuseum">袖珍博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverConfucius()"
+              onmouseout="mouseOutConfucius()"
+            ></li>
+          </a>
+          <p class="label_Confucius">孔子廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverChineseCupid()"
+              onmouseout="mouseOutChineseCupid()"
+            ></li>
+          </a>
+          <p class="label_ChineseCupid">霞海城隍廟</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOver207Museum()"
+              onmouseout="mouseOut207Museum()"
+            ></li>
+          </a>
+          <p class="label_207Museum">207博物館</p>
+        </div>
+        <div class="label_div">
+          <a href=""
+            ><li
+              class="navbar_page_label-button"
+              onmouseover="mouseOverMazu()"
+              onmouseout="mouseOutMazu()"
+            ></li>
+          </a>
+          <p class="label_Mazu">天后宮</p>
+        </div>
+      </ul>
+
+      <ul class="navbar_list-button" onclick="navbarListButton()">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </nav>
+    <aside class="aside">
+      <ul class="aside_text">
+        <li><a href="http://127.0.0.1:5500/index.html">ホームページ</a></li>
+        <li></li>
+        <li><a href="http://127.0.0.1:5500/list.html">List 目次</a></li>
+        <li></li>
+        <li><a href="">制作計画書について</a></li>
+      </ul>
+    </aside>
+
+    <main class="main">
+      <ul class="main_aside">
+        <li class="main_aside_note">
+          <img src="assets/images/station_image/note.png" alt="note" />
+          <div>
+            <p class="note_title">新北投駅</p>
+            <p class="note_date">日付：　2021/10/20</p>
+            <p class="note_annotation_title">スタンプ注釈：</p>
+            <p class="note_annotation_word">
+              　スタンプの映像は、新北投駅から淡水まで青い電車で往復の状況と思われる。人は電車に乗る時に、窓から青い空やマングローブの景色の後、綺麗な観音山や關渡大橋を見える状況が想像できる。
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <ul class="main_stamp">
+        <input type="radio" id="stamp_control-1" name="control" checked />
+        <input type="radio" id="stamp_control-2" name="control" />
+
+        <img
+          class="slide_stamp"
+          src="assets/images/station_image/station_stamp/station-stamp-01.jpg"
+          alt="station-stamp-01"
+        />
+        <img
+          class="slide_stamp"
+          src="assets/images/station_image/station_stamp/station-stamp-02.jpg"
+          alt="station-stamp-02"
+        />
+
+        <div class="stamp_controls-visible">
+          <label for="stamp_control-1"></label>
+          <label for="stamp_control-2"></label>
+        </div>
+      </ul>
+
+      <ul class="main_word">
+        <p class="main_word_title">百年を経つ記憶を戻る</p>
+        <p class="main_word_text">
+          　新北投駅は、1916年から温泉と観光産業を発展するため、新北投乗降場が設置された。1988年に淡水線の鉄道が運休した後で、彰化民俗村に一円の価格を買われてしまったから、2017年に元所在地の近くに建て直す。今は淡水線の唯一保存している駅である。<br />
+          　新北投駅の展覧に当時の駅の場面が見られる。百年前に残っている切符売り場と当時のキャップの価格表を見ると、物価と時代が変わっていた。展覧で木の駅や黒電話と、車両中の大同の扇風機などがなんとなく懐かしい感覚を感じられた。紹介を見学した後、まるでお爺さんは駅に乗る状況と当時賑やかな北投のようにまだ見られる。
+        </p>
+      </ul>
+
+      <ul class="main_picture">
+        <img
+          src="assets/images/station_image/station_picture/station_picture-01.JPG"
+          alt="station_picture-01"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-02.JPG"
+          alt="station_picture-02"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-03.JPG"
+          alt="station_picture-03"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-04.JPG"
+          alt="station_picture-04"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-05.JPG"
+          alt="station_picture-05"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-06.JPG"
+          alt="station_picture-06"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-07.JPG"
+          alt="station_picture-07"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-08.JPG"
+          alt="station_picture-08"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-09.JPG"
+          alt="station_picture-09"
+        />
+        <img
+          src="assets/images/station_image/station_picture/station_picture-10.JPG"
+          alt="station_picture-10"
+        />
+      </ul>
+    </main>
+
+    <footer>
+      <div>© 2022　110年度　淡江大学日本語文学系卒業制作</div>
+    </footer>
+
+    <script src="assets/javascript/index_javascript.js"></script>
+    <script src="assets/javascript/station_javascript.js"></script>
+    <script></script>
+  </body>
+</html>
